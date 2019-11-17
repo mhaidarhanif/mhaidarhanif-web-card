@@ -3,14 +3,16 @@ import styled from '@emotion/styled'
 
 const Lists = styled.ul`
   list-style-type: none;
-  display: flex;
-  justify-content: space-around;
   padding: 0;
   margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 `
 
 const List = styled.li`
   letter-spacing: 1px;
+  line-height: 1.5em;
   margin: 0 5px;
 `
 

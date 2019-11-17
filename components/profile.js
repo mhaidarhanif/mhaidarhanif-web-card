@@ -4,11 +4,6 @@ import styled from '@emotion/styled'
 import SocialLinks from './social-links.js'
 
 const Card = styled.div`
-  border-radius: 5px;
-  background-color: #ffffff;
-  margin: 50px;
-  max-width: 600px;
-
   @media (max-width: 650px) {
     border-radius: 0;
     margin: 0;
@@ -16,6 +11,11 @@ const Card = styled.div`
     flex-direction: column;
     width: 100%;
   }
+
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 50px;
+  max-width: 600px;
 `
 
 const Photo = styled.div`
@@ -30,6 +30,10 @@ const Photo = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-end;
+
+  @media (max-width: 650px) {
+    border-radius: 0;
+  }
 `
 
 const Content = styled.div`
@@ -37,7 +41,7 @@ const Content = styled.div`
   padding: 30px 60px;
 
   @media (max-width: 650px) {
-    /* padding: 30px 100px; */
+    padding: 15px 30px;
   }
 `
 
@@ -45,6 +49,10 @@ const Name = styled.h1`
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 5px;
+
+  @media (max-width: 650px) {
+    font-size: 1.5em;
+  }
 `
 
 const Description = styled.p`
