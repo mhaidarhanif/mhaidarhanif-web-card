@@ -47,9 +47,9 @@ const links = [
 
 const SocialLinks = props => (
   <Lists>
-    {links.map(({ url, name, color }, key) => {
+    {links.map(({ url, name, color }, index) => {
       return (
-        <List>
+        <List key={index}>
           <ExternalLink target='_blank' href={url} color={color}>
             {name}
           </ExternalLink>
