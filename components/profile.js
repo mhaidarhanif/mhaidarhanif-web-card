@@ -8,6 +8,14 @@ const Card = styled.div`
   background-color: #ffffff;
   margin: 50px;
   max-width: 600px;
+
+  @media (max-width: 650px) {
+    border-radius: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 `
 
 const Photo = styled.div`
@@ -27,6 +35,10 @@ const Photo = styled.div`
 const Content = styled.div`
   text-align: center;
   padding: 30px 60px;
+
+  @media (max-width: 650px) {
+    /* padding: 30px 100px; */
+  }
 `
 
 const Name = styled.h1`

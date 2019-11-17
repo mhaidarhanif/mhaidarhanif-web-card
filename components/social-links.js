@@ -11,6 +11,7 @@ const Lists = styled.ul`
 
 const List = styled.li`
   letter-spacing: 1px;
+  margin: 0 5px;
 `
 
 const ExternalLink = styled.a`

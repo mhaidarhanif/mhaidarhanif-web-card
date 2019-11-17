@@ -30,6 +30,12 @@ const Home = () => (
         background-color: #111111;
       }
 
+      @media (max-width: 650px) {
+        :global(body) {
+          background-color: #ffffff;
+        }
+      }
+
       :global(h1) {
         font-family: Rubik, sans-serif;
         font-weight: 700;
