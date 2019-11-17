@@ -8,7 +8,12 @@ import Center from '../components/center'
 
 const Home = () => (
   <Page>
-    <Head title='M Haidar Hanif' />
+    <Head
+      title='M Haidar Hanif'
+      description='A human who solves problems'
+      url='https://mhaidarhanif.com'
+      ogImage='/static/photos/mhaidarhanif.jpg'
+    />
 
     <Center>
       <Profile />
