@@ -10,7 +10,7 @@ const Home = () => (
   <Page>
     <Head
       title='M Haidar Hanif'
-      description='A human who solves problems'
+      description='Educator, Engineer, Entrepreneur. Tackling things in technology, design, business, marketing, and life.'
       url='https://mhaidarhanif.com'
       ogImage='/static/photos/mhaidarhanif.jpg'
     />

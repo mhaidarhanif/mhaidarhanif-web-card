@@ -67,8 +67,9 @@ const Profile = props => (
     </Photo>
     <Content>
       <Description>
-        Hello, world! I am Haidar. A human who tackles things in technology,
-        design, business, marketing, and life.
+        Hello, world! I am Haidar. Educator, Engineer, Entrepreneur. Founder of
+        multiple ventures. I tackle things in technology, design, business,
+        marketing, and life.
       </Description>
       <SocialLinks />
     </Content>
