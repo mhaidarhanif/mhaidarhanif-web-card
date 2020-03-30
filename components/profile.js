@@ -41,6 +41,7 @@ const Content = styled.div`
   padding: 30px 60px;
 
   @media (max-width: 650px) {
+    text-align: left;
     padding: 15px 30px;
   }
 `
@@ -57,7 +58,12 @@ const Name = styled.h1`
 
 const Description = styled.div`
   color: #333333;
-  line-height: 1em;
+  font-size: 1em;
+  line-height: 1.2em;
+
+  @media (max-width: 650px) {
+    font-size: 1.2em;
+  }
 `
 
 const Profile = props => (
@@ -65,6 +71,7 @@ const Profile = props => (
     <Photo image='/photos/mhaidarhanif.jpg'>
       <Name>M Haidar Hanif</Name>
     </Photo>
+
     <Content>
       <Description>
         <p>Hello! I am Haidar.</p>
@@ -78,6 +85,7 @@ const Profile = props => (
           I solve problems in technology, design, business, marketing, and life.
         </p>
       </Description>
+
       <SocialLinks />
     </Content>
   </Card>

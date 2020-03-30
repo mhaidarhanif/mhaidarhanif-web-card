@@ -8,12 +8,22 @@ const Lists = styled.ul`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+
+  @media (max-width: 650px) {
+    justify-content: flex-start;
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
 `
 
 const List = styled.li`
   letter-spacing: 0.5px;
   line-height: 1.5em;
   margin: 0 5px;
+
+  @media (max-width: 650px) {
+    margin-right: 10px;
+  }
 `
 
 const ExternalLink = styled.a`
