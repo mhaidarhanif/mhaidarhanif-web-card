@@ -11,7 +11,7 @@ const Lists = styled.ul`
 `
 
 const List = styled.li`
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height: 1.5em;
   margin: 0 5px;
 `
@@ -45,6 +45,11 @@ const links = [
     url: 'https://linkedin.com/in/mhaidarhanif',
     name: 'LinkedIn',
     color: '#2867B2'
+  },
+  {
+    url: 'https://haidar.dev/resume',
+    name: 'Resume',
+    color: '#e6bf00'
   }
 ]
 

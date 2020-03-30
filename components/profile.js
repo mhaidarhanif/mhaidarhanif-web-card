@@ -12,10 +12,10 @@ const Card = styled.div`
     width: 100%;
   }
 
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #ffffff;
   margin: 50px;
-  max-width: 600px;
+  max-width: 700px;
 `
 
 const Photo = styled.div`
@@ -55,9 +55,9 @@ const Name = styled.h1`
   }
 `
 
-const Description = styled.p`
+const Description = styled.div`
   color: #333333;
-  line-height: 1.5em;
+  line-height: 1em;
 `
 
 const Profile = props => (
@@ -67,9 +67,16 @@ const Profile = props => (
     </Photo>
     <Content>
       <Description>
-        Hello, world! I am Haidar. Educator, Engineer, Entrepreneur. Founder of
-        multiple ventures. I tackle things in technology, design, business,
-        marketing, and life.
+        <p>Hello! I am Haidar.</p>
+        <p>An Educator, Engineer, Designer, Innovator, and Consultant.</p>
+        <p>
+          Founder of multiple ventures: <a href='https://azobu.com'>Azobu</a>,{' '}
+          <a href='https://highskillmasters.com'>High Skill Masters</a>,{' '}
+          <a href='https://impactbyte.com/about'>Impact Byte</a>.
+        </p>
+        <p>
+          I solve problems in technology, design, business, marketing, and life.
+        </p>
       </Description>
       <SocialLinks />
     </Content>
