@@ -12,7 +12,7 @@ const Home = () => (
       title='M Haidar Hanif'
       description='Educator, Engineer, Entrepreneur. Tackling things in technology, design, business, marketing, and life.'
       url='https://mhaidarhanif.com'
-      ogImage='/static/photos/mhaidarhanif.jpg'
+      ogImage='/photos/mhaidarhanif.jpg'
     />
 
     <Center>

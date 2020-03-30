@@ -62,7 +62,7 @@ const Description = styled.p`
 
 const Profile = props => (
   <Card>
-    <Photo image='/static/photos/mhaidarhanif.jpg'>
+    <Photo image='/photos/mhaidarhanif.jpg'>
       <Name>M Haidar Hanif</Name>
     </Photo>
     <Content>
