@@ -50,10 +50,6 @@ const Name = styled.h1`
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 5px;
-
-  @media (max-width: 650px) {
-    font-size: 1.5em;
-  }
 `
 
 const Description = styled.div`
